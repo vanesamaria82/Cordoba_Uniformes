@@ -1,0 +1,21 @@
+
+.carrousel {
+    flex-wrap: wrap;
+}
+
+.graficas-carrousel {
+    width: 80%;
+    padding: 15px;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+.carrousel {
+    display: flex;
+}
+.graficas-carrousel {
+    width: 30%;
+    padding: 15px;
+}
+}
