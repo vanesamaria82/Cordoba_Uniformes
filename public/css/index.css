@@ -3,19 +3,25 @@
     flex-wrap: wrap;
 }
 
-.graficas-carrousel {
-    width: 80%;
-    padding: 15px;
-    justify-content: center;
+.d-block w-100 {
+    width: 50%;
 }
+
 
 @media (min-width: 768px) {
 
-.carrousel {
-    display: flex;
+    #miCarrusel {
+        width: 40%; /* Asegúrate de que ocupe el espacio necesario */
+        position: relative; /* Posicionamiento relativo para controles posicionados de forma absoluta */
+        margin: auto;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 90%; /* Cambio de ancho puede afectar la visibilidad de flechas */
+        height: 100%; /* Altura fija puede ocultar flechas si son absolutas */
+        overflow: hidden; /* Podría evitar que se vean las flechas */
+        margin: auto;
+
+    }
 }
-.graficas-carrousel {
-    width: 30%;
-    padding: 15px;
-}
-}
+
