@@ -1,0 +1,53 @@
+
+
+.listado {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.productoIndividual {
+    flex-wrap: wrap;
+
+}
+
+
+.categorias {
+    font-size: 1rem;
+    color: green;
+
+}
+
+.foto-categoria {
+    width: 50%;
+    margin: auto;
+}
+
+
+@media (min-width: 1200px) {
+}
+
+
+@media (min-width: 1200px) {
+
+.categorias {
+    font-size: 1.5rem;
+}
+
+.productoIndividual {
+    width: 25%; 
+    ;
+}
+
+.foto-categoria {
+    width: 100%;
+    margin: auto;
+}
+
+.listado {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+}

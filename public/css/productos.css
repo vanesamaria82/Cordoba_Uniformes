@@ -1,0 +1,44 @@
+.nuestros-productos {
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.listado {
+    margin: auto;
+    text-align: center;
+}
+
+
+.categorias {
+    font-size: 1rem;
+    color: green;
+
+}
+
+.foto-categoria {
+    width: 30%;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+
+.nuestros-productos {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.listado {
+    display: flex;
+}
+
+.categorias {
+    font-size: 1.5rem;
+}
+
+.foto-categoria {
+    width: 50%;
+    margin: auto;
+}
+}
